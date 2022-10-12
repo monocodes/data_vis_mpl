@@ -30,7 +30,7 @@ ax.tick_params(axis='both', which='major', labelsize=14)
 # Set the range for each axis.
 ax.axis([0, 1100, 0, 1_100_000])
 
-# Prevent scientific notation (1e6 instead of 1_000_000)
+# Prevent scientific notation (1_000_000 instead of 1e6)
 plt.ticklabel_format(style='plain')
 
 # show the resulting plot
