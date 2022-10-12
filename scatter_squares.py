@@ -5,13 +5,18 @@ y_values = [x**2 for x in x_values]
 
 plt.style.use('seaborn-v0_8')
 fig, ax = plt.subplots()
-ax.scatter(x_values, y_values, c='red', s=10)
+ax.scatter(
+    x_values, y_values, c=y_values,
+    cmap=plt.cm.Blues, s=10)
 
 # Defining Custom Colors
 """
 to define custom color, pass the c argument a tuple with three decimal values between 0 and 1
 For example, plot with light-green dots:
+
 ax.scatter(x_values, y_values, c=(0, 0.8, 0), s=10)
+
+Values closer to 0 produce dark colors, and values closer to 1 produce lighter colors.
 """
 
 # Set chart title and label axes.
