@@ -33,4 +33,8 @@ ax.axis([0, 1100, 0, 1_100_000])
 # Prevent scientific notation (1e6 instead of 1_000_000)
 plt.ticklabel_format(style='plain')
 
+# show the resulting plot
 plt.show()
+
+# save the resulting plot
+#plt .savefig('images/squares_plot.png', bbox_inches='tight')
