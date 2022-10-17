@@ -1,3 +1,8 @@
+### 15-2. Colored Cubes ###
+"""
+Apply a colormap to your cubes plot.
+"""
+
 import matplotlib.pyplot as plt
 
 x_values = list(range(5001))

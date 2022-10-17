@@ -1,3 +1,8 @@
+### 15-1. Cubes ###
+"""
+A number raised to the third power is a cube. Plot the first five cubic numbers, and then plot the first 5000 cubic numbers.
+"""
+
 import matplotlib.pyplot as plt
 
 x_values = range(1, 5001)
